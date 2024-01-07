@@ -17,22 +17,22 @@ body {
 /* [ START ] Main Section */
 main {
 	max-width: 37.5rem;
-	border-radius: 10px;
+	border-radius: 0.625rem;
 	overflow: hidden;
 	display: flex;
 }
 @media screen and (max-width: 768px) {
 	main {
-		max-width: 343px;
+		max-width: 21.438rem;
 		flex-direction: column;
 	}
 }
 main .product-image {
-	max-width: 337.694px;
+	max-width: 21.106rem;
 }
 @media screen and (max-width: 768px) {
 	main .product-image {
-		max-width: 343px;
+		max-width: 21.438rem;
 		display: flex;
 		justify-content: center;
 	}
@@ -57,64 +57,64 @@ main .product-image img:last-of-type {
 	}
 }
 main article {
-	max-width: 300px;
+	max-width: 18.75rem;
 	background: #fff;
-	padding: 32px 32px;
+	padding: 2rem;
 }
 @media screen and (max-width: 768px) {
 	main article {
-		padding: 24px;
-		max-width: 343px;
+		padding: 1.5rem;
+		max-width: 21.438rem;
 	}
 }
 main article header {
-	margin-bottom: 24px;
+	margin-bottom: 1.5rem;
 }
 @media screen and (max-width: 768px) {
 	main article header {
-		margin-bottom: 16px;
+		margin-bottom: 1rem;
 	}
 }
 main article header p {
 	color: #6c7289;
-	font-size: 12px;
-	letter-spacing: 5px;
+	font-size: 0.75rem;
+	letter-spacing: 0.41667em;
 	font-weight: 500;
 	line-height: 1.219;
-	margin-bottom: 20px;
+	margin-bottom: 1.6667em;
 }
 @media screen and (max-width: 768px) {
 	main article header p {
-		font-size: 12px;
-		margin-bottom: 12px;
+		font-size: 0.75rem;
+		margin-bottom: 1em;
 	}
 }
 main article header h1 {
 	color: #1c232b;
 	font-family: 'Fraunces', serif;
-	font-size: 32px;
+	font-size: 2rem;
 	line-height: 1;
 	font-weight: 700;
 }
 main article section {
-	margin-bottom: 30px;
+	margin-bottom: 1.875rem;
 }
 @media screen and (max-width: 768px) {
 	main article section {
-		margin-bottom: 24px;
+		margin-bottom: 1.5rem;
 	}
 }
 main article section p {
 	color: #6c7289;
 	font-weight: 500;
-	font-size: 14px;
+	font-size: 0.875rem;
 	line-height: 1.64;
-	margin-bottom: 29px;
+	margin-bottom: 2.071em;
 }
 main article section h2 {
 	font-family: 'Fraunces', serif;
 	color: #3d8168;
-	font-size: 32px;
+	font-size: 2rem;
 	line-height: 1;
 	font-weight: 700;
 	display: flex;
@@ -123,7 +123,7 @@ main article section h2 {
 main article section h2 span {
 	font-family: 'Montserrat', sans-serif;
 	color: #6c7289;
-	font-size: 13px;
+	font-size: 0.813rem;
 	line-height: 1.76;
 	font-weight: 500;
 	text-decoration: line-through;
@@ -132,12 +132,12 @@ main article section h2 span {
 main article footer {
 }
 main article footer button {
-	padding: 15px 0;
+	padding: 1.071em 0;
 	border: none;
 	border-radius: 8px;
 	background-color: #3d8168;
 	width: 100%;
-	font-size: 14px;
+	font-size: 0.875rem;
 	line-height: 1.219;
 	font-weight: 700;
 	color: #fff;
@@ -150,6 +150,6 @@ main article footer button:hover {
 	background-color: #1a4032;
 }
 main article footer button img {
-	margin-right: 11.61px;
+	margin-right: 0.726rem;
 }
 /* [ END ] Main Section */
